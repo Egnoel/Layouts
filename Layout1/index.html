@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href='style.css'>
+    <link rel="stylesheet" href='carrousel.css'>
+    <link rel="stylesheet" href='anime.css'>
+</head>
+
+<body>
+    <div class='involucro'>
+        <nav class="navMenu">
+            <ul class='list'>
+                <li><a href="#">Animes</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Ovas</a></li>
+                <li><a href="#">AnimesTC</a></li>
+            </ul>
+            <div class="ham">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </div>
+            <ul class="nav-sub">
+                <li class="list-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="list-item"><a href="#" class="nav-link">Blogs</a></li>
+                <li class="list-item"><a href="#" class="nav-link">About me</a></li>
+            </ul>
+        </nav>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="/img/35fe217.jpg" style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="/img/7883904.jpg" style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="/img/81253b6.jpg" style="width:100%">
+
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="/img/d17021f.jpg" style="width:100%">
+
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="/img/de38cff.png" style="width:100%">
+
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+
+        <div class='temporada'>
+            <p>Animes da temporada</p>
+        </div>
+        <table class='semana'>
+            <tr>
+                <td>Segunda</td>
+                <td>Terça</td>
+                <td>Quarta</td>
+                <td>Quinta</td>
+                <td>Sexta</td>
+                <td>Sábado</td>
+                <td>Domingo</td>
+            </tr>
+        </table>
+
+        <div class='lancamento'>
+            <div class='imgContainer'>
+                <img class='l1' src="/img/tokyo.jpg" alt="Tokyo 24">
+            </div>
+            <div class='dados'>
+                <ul>
+                    <li>Tokyo 24</li>
+                    <li>
+                        <table>
+                            <tr>
+                                <td>mp4</td>
+                                <td>720p</td>
+                                <td>180p</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <table>
+                            <tr>
+                                <td>send</td>
+                                <td>mega</td>
+                                <td>Drive</td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

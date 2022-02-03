@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.involucro {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navMenu {
+    background-color: #272d4d;
+    display: flex;
+    top: 0;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.navMenu .list {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+.navMenu .list li {
+    display: inline;
+}
+
+.navMenu .list li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+.navMenu .list li:last-child a {
+    float: center;
+    background-color: #294380;
+}
+
+.nav-sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item {
+    padding: 10px;
+    list-style: none;
+}
+
+.nav-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.ham {
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: white;
+    transition: 0.4s;
+}
+
+* {
+    overflow: hidden;
+}
+
+.nav-sub {
+    position: absolute;
+    top: 10vh;
+    right: 300px;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.75);
+    border-radius: 0px 0px 0px 20px;
+    transition: transform 0.3s ease-in;
+    transform: translate(100%);
+    display: none;
+}
+
+.nav-change {
+    transform: translate(0%);
+    display: block;
+    right: 200px;
+}
+
+.change .bar1 {
+    transform: rotate(45deg) translate(8px, 3px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: rotate(-45deg) translate(8px, -3px);
+}
+
+.temporada {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+
+.temporada p {
+    text-align: center;
+}
